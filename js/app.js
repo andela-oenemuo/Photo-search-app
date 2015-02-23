@@ -50,39 +50,4 @@ $(function(){
   };
     FindPhotos.searchButton.click(FindPhotos.searchValue);
 
-
-     
-    
-     
-    // $(document).ready(function() {
-    //  $("#gallery").empty();
-    //  $("#submit").click(function (event) {
-    //  if($("#term").val() !="" ){
-    //  //$("#gallery").empty();
-    //  /**********************/
-    //  updatestatus();
-    //  ajaxProcess();
-    //  /**************************/
-    //  }else {
-    //  //$("#gallery").text("Please enter a keyword to search").fadeOut(2500);
-    //  alert("Please enter a keyword to search");
-    //  }
-    //  });
-    //  $("#clear").click(function(){
-    //  $("#gallery").empty();
-    //  });
-    //  $("#gallery").scroll(function(){
-    //  // check if we're at the bottom of the scrollcontainer
-    //  if ($(this)[0].scrollHeight - $(this).scrollTop() == $(this).outerHeight())
-    //  //if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10)
-    //  {
-    //  // If we're at the bottom, retrieve the next page
-    //  currentPage++;
-    //  $("#submit").click();
-    //  updatestatus();
-    //  // console.log("page "+currentpage);
-    //  }
-     
-    // });
-
 });
